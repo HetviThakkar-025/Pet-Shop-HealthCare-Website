@@ -1,0 +1,119 @@
+#videoCarousel .carousel-item video {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+.carousel-caption {
+    position: absolute;
+    bottom: 200px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: white;
+    z-index: 10;
+    /* Ensure the caption is above the video */
+    /* Semi-transparent background for better visibility */
+}
+
+/* Optional: Make the navbar sticky at the top */
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1050;
+    /* Ensure navbar stays on top of other content */
+}
+
+.Nav-color {
+    background-color: #af9979;
+    height: 80px;
+    font-weight: 600;
+    font-size: large;
+}
+
+#nav-l {
+    font-size: xx-large;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+}
+
+.Nav-color ul li {
+    margin: 15px;
+}
+
+.Nav-Drop li a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+}
+
+.New-Arrival {
+    background-color: #FAEBD7;
+    height: 500px;
+    text-align: center;
+    font-size: 7rem;
+}
+
+.New-Arrival-Text {
+    font-weight: 900;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 30px;
+}
+
+.Card-container {
+    display: flex;
+}
+
+.footer {
+    background-color: #343a40;
+    /* Dark gray background for main footer */
+
+    color: #fff;
+    /* White text color */
+    padding: 30px 0;
+}
+
+.footer h5 {
+    color: #fff;
+    /* White headings */
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.footer a {
+    color: #fff;
+    /* White links */
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.social-icons img {
+    width: 40px;
+    /* Social media icon size */
+    height: 40px;
+    margin: 0 8px;
+}
+
+.shop-links a,
+.policy-links a {
+    display: block;
+    margin: 5px 0;
+}
+
+.divider {
+    border-top: 1px solid #6c757d;
+    /* Lighter gray divider */
+    margin: 20px 0;
+}
+
+.copyright {
+    background-color: #6c757d;
+    /* Slightly lighter shade of gray for copyright */
+    color: #fff;
+    /* White text color */
+    padding: 10px 0;
+    font-size: 0.8rem;
+    margin-top: 20px;
+}
